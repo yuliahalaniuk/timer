@@ -1,14 +1,26 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page title</title>
     <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <div class="wrapper">
+      <div class="header">
+        <h1>Countdown Timer</h1>
+      </div>
+
+      <div style="text-align: center">
+        <button id="startBtn">Start</button>
+        <button id="stopBtn">Stop</button>
+      </div>
+      <div id="timer_1"></div>
+      <div id="timer_2"></div>
+      <div id="timer_3"></div>
+    </div>
+
+    <script type="module" src="./index.js"></script>
   </body>
 </html>

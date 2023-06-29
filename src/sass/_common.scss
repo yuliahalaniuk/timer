@@ -1,1 +1,14 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+
+html,
+body {
+  font-family: sans-serif;
+}
+
+body {
+  padding: 50px;
+}
+
+h1 {
+  text-align: center;
+}
